@@ -155,7 +155,7 @@ body[data-bs-theme="dark"] .navbar .navbar-nav .nav-link.active {
   display: inline-block;
 }
 .navbar .navbar-nav .nav-link {
-  color: #183b56;
+  color: #00a9a5;
   font-size: 13px;
   background-color: rgba(0, 0, 0, 0);
   padding: 28px 25px;
@@ -167,7 +167,7 @@ body[data-bs-theme="dark"] .navbar .navbar-nav .nav-link.active {
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link:active,
 .navbar .navbar-nav .nav-link.active {
-  color: #0076a3 !important;
+  color: #ffc107 !important;
 }
 .navbar .navbar-brand {
   color: #0076a3;
@@ -2027,6 +2027,23 @@ body[data-bs-theme="dark"]
 .service .service-box:hover a {
   color: #0076a3;
 }
+
+.service-icon {
+  background-color: #ffd700; /* Yellow background */
+  border-radius: 50%; /* Makes it a circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px; /* Adjust as needed */
+  height: 80px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+.service-icon i {
+  color: blue !important; /* Sets the logo (icon) color to blue */
+  font-size: 50px; /* Adjust size as needed */
+}
+
 .home2-service {
   padding-top: 250px;
 }
