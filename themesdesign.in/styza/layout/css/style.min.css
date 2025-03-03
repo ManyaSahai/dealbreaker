@@ -2034,14 +2034,16 @@ body[data-bs-theme="dark"]
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80px; /* Adjust as needed */
-  height: 80px; /* Adjust as needed */
+  width: 100px; /* Increased size for better spacing */
+  height: 100px; /* Increased size for better spacing */
   margin: 0 auto;
+  position: relative; /* Ensures proper positioning */
 }
 
 .service-icon i {
   color: blue !important; /* Sets the logo (icon) color to blue */
   font-size: 50px; /* Adjust size as needed */
+  position: absolute; /* Keeps the icon centered inside */
 }
 
 .home2-service {
